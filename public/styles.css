@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Inter;
+}
+
+nav {
+  margin: 0;
+  margin-bottom: 2rem;
+  background-color: rgb(234, 89, 89);
+  color: white;
+  padding: 1rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+nav p {
+  margin: 0;
+  margin-left: 0.2rem;
+  font-size: large;
+}
+
+/* Card */
+.cardBlock {
+  width: 40%;
+  margin: auto;
+  /* margin-top: 0.5rem; */
+  padding: 1rem;
+  padding-bottom: 0;
+}
+
+hr {
+  margin-top: 1.5rem;
+  border: none;
+  height: 0.1rem;
+  background-color: rgba(150, 150, 150, 0.277);
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+img {
+  width: 11rem;
+  height: 15rem;
+  border-radius: 0.5rem;
+}
+
+.content {
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.country {
+  margin: 0;
+  margin-top: 1.5rem;
+  font-weight: 400;
+}
+
+.gMaps {
+  margin-left: 1rem;
+  text-decoration: underline;
+  font-weight: 200;
+  color: rgb(121, 121, 121);
+}
+
+.gMaps:hover {
+  cursor: pointer;
+}
+
+.location {
+  font-weight: 700;
+  font-size: xx-large;
+  margin: 0;
+  margin-top: 0.5rem;
+  padding: 0;
+}
+
+.date {
+  font-weight: 700;
+  margin: 0;
+  margin-top: 2rem;
+}
+
+.description {
+  font-weight: 300;
+  font-size: 13px;
+  margin-top: 0.5rem;
+  letter-spacing: 0.02rem;
+}
